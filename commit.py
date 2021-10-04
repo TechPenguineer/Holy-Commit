@@ -1,8 +1,8 @@
 import os
 
-ip = int(input("How many times do you want to commit? \n"))
+ip = 200000
 
-autoPush = input("Auto git push when commited? (y/n) \n")
+autoPush = "n"
 
 for i in range(ip):
 	# os.system('git commit --allow-empty -m "New Commit at: $(date)"')
